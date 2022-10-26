@@ -1,0 +1,15 @@
+name: file_hash_checker
+description: A sample command-line application.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  crypto: ^3.0.2
+  path: ^1.8.2
+
+dev_dependencies:
+  lints: ^2.0.1
+  test: ^1.21.6
